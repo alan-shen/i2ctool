@@ -131,7 +131,7 @@ int main(int argc, char **argv)
     }  
   
     sscanf(argv[2], "%x", &slave_address);  
-    sscanf(argv[3], "%x", ®_address);  
+    sscanf(argv[3], "%x", &reg_address);  
     sscanf(argv[4], "%d", &r_w);  
   
     if (r_w == 0) {  
